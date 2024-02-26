@@ -1,0 +1,69 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.sides {
+  width: 30%;
+  position: relative;
+}
+.sides * {
+  width: 100%;
+}
+
+.items {
+  list-style-type: none;
+  padding: 0;
+}
+.itemBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0 16px 16px 0;
+  vertical-align: top;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.badge {
+  font-size: 0.4rem;
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 25px;
+  width: auto;
+}
+.options {
+  display: flex;
+  gap: 4px;
+}
+.small_font {
+  font-size: 0.8rem;
+}
+.box {
+  height: 8px;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 8px;
+  bottom: 0;
+}
+.pagination span {
+  text-align: center;
+}
+.pagination span:first-child, .pagination span:last-child {
+  color: blue;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 30%;
+}
