@@ -25,6 +25,10 @@ Go to frontend folder
 
 > cd src/main/frontend
 
+Download node modules
+
+> npm i
+
 And start the nextjs app
 
 > npx next dev
